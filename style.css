@@ -1,0 +1,437 @@
+/* Body */
+body {
+	min-height: 10%;
+	overflow-x: hidden;
+	background-color: #deeced;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Footer */
+.footer {
+	margin-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	box-shadow: 0px 0px 7px #000;
+	background-color: #1f8bbf;
+}
+
+/* Footer Sections */
+.footer > div > div > ul > li > a {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* Footer Copyright Disclaimer */
+.footer > div > div > p {
+	color: white;
+	text-transform: uppercase;
+}
+
+/* Facebook Login Buttons */
+#fb_login{
+	background-image: url("img/fb-login.png");
+	height: 46px;
+	background-color: #3b5998;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#fb_login:hover{
+	opacity: 0.85;
+}
+
+#fb_signup{
+	background-image: url("img/fb-signup.png");
+	height: 100px;
+	width: 100px;
+	border: 0;
+}
+
+#fb_signup:hover{
+	opacity: 0.85;
+}
+
+#reviewTabs{
+	margin-top: 30px;
+}
+
+#productDetails{
+	margin-top: 20px;
+}
+
+#productImage{
+	max-height: 200px;
+	max-width: 200px;
+}
+
+#wishImage{
+	max-width: 75px;
+}
+
+#addWish{
+	margin: 15px 0 0 32px;
+}
+
+#addWishResult{
+	margin-top: 40px;
+}
+
+#wishlistButtons{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.userCommentImage{
+	width:50px;
+}
+
+.userCommentImage img{
+	max-width: 100%;
+}
+
+.glyphicon-bookmark{
+	font-size: 30px;
+	color: darkred;
+	position: absolute;
+	top:0px;
+}
+
+#averageRating{
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+#helpful{
+	font-size: 1em;
+}
+
+.description{
+	font-size: 16px;
+}
+
+#points{
+	margin-left: 30px;
+}
+
+.glyphicon-thumbs-up, .glyphicon-thumbs-down, .glyphicon-flag {
+	opacity: 0.5;
+}
+
+.glyphicon-thumbs-up.clicked, .glyphicon-thumbs-down.clicked{
+	color: #0bbfff;
+	font-size: 1.1em;
+}
+
+.glyphicon-thumbs-up:hover, .glyphicon-thumbs-down:hover{
+	cursor: pointer;
+}
+
+.glyphicon-flag:hover{
+	cursor: pointer;
+}
+
+.glyphicon-flag.clicked{
+	color: orange;
+	font-size: 1.1em;
+	opacity: 1;
+}
+
+.radio_item{
+	display: none;
+}
+
+.radio_item + span {
+	opacity: 0.5;
+}
+
+.radio_item:checked + span {
+	font-size: 1.7em;
+	opacity: 1;
+}
+
+.glyphicon-certificate {
+	color: gold;
+}
+
+.glyphicon-heart {
+	color: red;
+}
+
+.radio-inline > .glyphicon-gift {
+	color: #0bbfff;
+	font-size: 1.7em;
+}
+
+label.gifts {
+	padding: 0;
+	margin: 0;
+}
+
+.image-tile-gap{
+	margin-top: 20px;
+}
+
+#reportProduct{
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+.navbar-default{
+	background-color: #1f8bbf;
+	box-shadow: 0px 2px 7px #000;
+	border: none;
+	border-radius: 0px;
+}
+
+.navbar-header{
+	height: 130px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-header{
+	margin-top: 10px;
+}
+
+.navbar-form .input-group{
+	margin-left: 20%;
+	border-radius: 30px;
+	background-color: #53acd5;
+	padding: 7px;
+}
+
+@media only screen and (min-width:1100px){
+	#bs-example-navbar-collapse-1 > ul > li > a{
+		bottom: 80px;
+		right: 40px;
+		outline: 0;
+	}
+	#bs-example-navbar-collapse-1 input{
+		width: 350px;
+		border-radius: 30px;
+	}
+}
+
+@media only screen and (max-width:1100px) and (min-width:768px){
+	#bs-example-navbar-collapse-1 input{
+		width: 250px;
+		border-radius: 30px;
+	}
+	#bs-example-navbar-collapse-1 > ul > li > a{
+		bottom: 80px;
+		right: 0px;
+		outline: 0;
+	}
+	.navbar-header > a > img{
+		max-width: 300px;
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (min-width:768px){
+	#bs-example-navbar-collapse-1 .input-group {
+		margin-top: 30px;
+		top:15px;
+	}
+}
+
+#bs-example-navbar-collapse-1 > form > div > div > span > button {
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+}
+
+@media (min-width: 768px){
+	.navbar-right .dropdown-menu {
+		right: 35px;
+		top: -30px;
+	}
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+		color: white;
+		background-color: transparent;
+	}
+}
+
+.panel-primary>.panel-heading{
+	background-color: #53acd5;
+	border-color: #53acd5;
+}
+
+.panel-primary{
+	border-color: #53acd5;
+}
+
+#searchLimiters{
+	background-color: #AED0D2;
+	color: #425051;
+	font-size: 1.2em;
+}
+
+#searchLimiters > p:not(:first-child){
+	background-color: #1f8bbf;
+	color: white;
+}
+
+#searchLimiters > p{
+	padding: 5px;
+}
+
+#searchLimiters > p:first-child {
+	margin-top: 10px;
+}
+
+#searchLimiters ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.divider{
+	border-left: 1px solid grey;
+	height: 80px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+#social{
+	margin-top: 70px;
+}
+
+.productName {
+	font-size: 0.85em;
+	margin: 10px 0px;
+}
+
+
+.productNameWrapper{
+	text-align: center;
+	overflow:hidden;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+.col-md-12 img{
+	height: 120px;
+	width: 120px;
+	margin: auto;
+	border-radius: 25px;
+}
+
+@media screen and (max-width: 768px){
+	.navbar-brand>img {
+		width: 230px;
+	}
+
+	.navbar-header{
+		height: 90px;
+	}
+
+	.input-group input {
+		border-radius: 20px !important;
+	}
+
+	#bs-example-navbar-collapse-1 div.input-group {
+		margin-left: 0;
+	}
+
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color: white;
+	}
+
+	.navbar-form {
+		border-top: 0px;
+	}
+
+	#search #searchInput{
+		width: 150px;
+		display: inline;
+	}
+
+	#resultsInfoTable{
+		width: 50%;
+	}
+
+	#searchLimiters{
+		font-size: 0.8em;
+		padding: 3px;
+	}
+
+	#search > div.col-md-10 > input.btn.btn-default{
+		width: 150px;
+	}
+
+	.divider{
+		border-left: 0px;
+		border-top: 1px solid grey;
+		width: 80px;
+		height: 0;
+		display: inline-block;
+	}
+
+	#or{
+		display: inline;
+	}
+
+	button#createAccount{
+		display: block;
+		width: 100%;
+	}
+
+	#registrationDivider{
+		text-align: center;
+	}
+
+	#social{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	#submit{
+		display: block;
+		width: 100%;
+		font-size: 0.9em;
+	}
+
+	#results_box > div.col-xs-7{
+		float: right;
+	}
+
+	#search #searchInput{
+		width: 50%;
+	}
+
+	#search > div.col-md-10 > input.btn.btn-default{
+		width: 65%;
+		margin-top: 10px;
+	}
+
+	#search > div.col-md-10{
+		text-align: center;
+	}
+}
+
+.popover{
+	color: orange;
+}
+
+#signUpError{
+	margin-top: 15px;
+}
+
+.userReviewRating{
+	font-weight: bold;
+}
+
+#numPerPage {
+	width: 70px;
+	display: inline;
+}
+
+#searchInput{
+	width: 300px;
+	display: inline;
+}

@@ -1,0 +1,19 @@
+[14-Apr-2016 23:39:07 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[14-Apr-2016 23:43:17 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[14-Apr-2016 23:44:18 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[14-Apr-2016 23:44:29 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[14-Apr-2016 23:45:04 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[14-Apr-2016 23:45:50 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[14-Apr-2016 23:46:58 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[14-Apr-2016 23:48:35 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/giftgoals_psAdd.php on line 27
+[15-Apr-2016 07:07:33 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/giftgoals1/public_html/admin2.php on line 109
+[15-Apr-2016 07:10:15 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/giftgoals1/public_html/admin2.php on line 110
+[15-Apr-2016 07:10:42 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/giftgoals1/public_html/admin2.php on line 110
+[16-Apr-2016 19:31:46 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/giftgoals1/public_html/delete_product.php on line 18
+[16-Apr-2016 19:34:08 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/giftgoals1/public_html/delete_product.php on line 18
+[16-Apr-2016 19:35:21 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/giftgoals1/public_html/delete_product.php on line 41
+[18-Apr-2016 23:07:41 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/giftgoals1/public_html/wishlist.php on line 82
+[18-Apr-2016 23:12:24 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/giftgoals1/public_html/wishlist.php on line 86
+[18-Apr-2016 23:13:44 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/giftgoals1/public_html/wishlist.php on line 82
+[18-Apr-2016 23:46:34 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/giftgoals1/public_html/wishlist.php on line 82
+[18-Apr-2016 23:46:48 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/giftgoals1/public_html/wishlist.php on line 82
